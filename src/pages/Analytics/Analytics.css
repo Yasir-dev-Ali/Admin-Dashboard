@@ -1,0 +1,35 @@
+/* pages/Analytics.css */
+.analytics-container {
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    /* Tailwind gray-100 */
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.analytics-title {
+    font-size: 1.875rem;
+    /* text-2xl */
+    font-weight: 700;
+    /* font-bold */
+    color: #1d4ed8;
+    /* Tailwind blue-700 */
+    margin-bottom: 1.5rem;
+}
+
+.analytics-card {
+    width: 90%;
+    /* Increase the width as needed */
+    max-width: 1200px;
+    /* Set a maximum width */
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* shadow-lg */
+}
